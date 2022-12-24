@@ -1,0 +1,17 @@
+@media(max-width:840px) {
+    .nav-links {
+        display: none;
+    
+    }
+    .fa-bars {
+        display: flex !important;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    }
+@media(max-width:840px) {
+    header {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
