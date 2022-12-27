@@ -77,3 +77,18 @@ padding-right: 0px;
      padding-top: 70px;
      min-width: 450px;
 }
+/*Trusted By section start*/
+.trustedby h6 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.partner-companies {
+    padding-top: 70px;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+/*Trusted By section End */

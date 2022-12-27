@@ -54,3 +54,9 @@
         margin: 0 auto;
     }
 }
+@media(max-width:768px) {
+    .partner-companies .partner-company:nth-child(1),
+    .partner-companies .partner-company:nth-child(2) 
+ {display: none;}
+}
+
