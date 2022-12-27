@@ -82,12 +82,18 @@ padding-right: 0px;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    padding-top: 76px;
+    padding-bottom: 45px;
 }
 .partner-companies {
     padding-top: 70px;
     display: flex;
     justify-content:space-around;
 }
+.trustedby {
+    padding: 20px 289px 76.27px;
+}
+
 
 
 
