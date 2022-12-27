@@ -4,35 +4,46 @@
 *{margin: 0}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('./reset.css');
-/* @import url('media_queries.css'); */
+/*@import url('media_queries.css'); */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 41px 112.5px 0;
+    padding: 41px 112.5px 12px;
 }
 body {
     font-family: 'Roboto', sans-serif;
+    
 }
 .nav-links a {
 color:#000;
 text-decoration: none;
-padding-right: 20px;
+padding: 20px;
+padding-right: 0px;
 }
 .fa-bars {
     display: none ;
 } 
 /*Introduction section*/
 .introduction {
+    display: flex;
     padding: 0 112.5px;
-    padding-top: 16.7px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+    
+   
 
 }
 .intro-left-side {
     padding-top: 117px;
-    
+    min-width: 500px;
 }
-
+.d-flex--column {
+    display: flex;
+    flex-direction: column;
+}
 .intro-left-side h1 {
     font-size: 72px;
     font-weight: 700;
@@ -40,17 +51,20 @@ padding-right: 20px;
 }
 .intro-left-side h1 span {
     color: #FF8A56 ;
+
 }
 .intro-left-side p {
     color: #666;
 }    
 .book-a-call {
     margin-top: 38px ;
+    display: flex;
+    align-items: center;
 }
 .book-a-call  button {
     width: 151px;
     height: 58px;
-    background-color: #222;
+    background-color: black;
     color:  #FFF;
     margin-right: 40px;
 }
@@ -58,4 +72,8 @@ padding-right: 20px;
     margin-right: 14.33px;
     color: #222;
     text-decoration: none;
+}
+.intro-right-side {
+     padding-top: 70px;
+     min-width: 450px;
 }

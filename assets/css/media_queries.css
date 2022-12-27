@@ -1,4 +1,4 @@
-@media(max-width:840px) {
+@media(max-width:910px) {
     .nav-links {
         display: none;
     
@@ -8,13 +8,49 @@
         font-size: 22px;
         cursor: pointer;
     }
+    
+    .introduction .intro-left-side h1 {
+        text-align: center;
     }
-@media(max-width:840px) {
-    header {
-       padding: 20px !important;
+    .introduction .intro-left-side p {
+        text-align: center;
     }
-}
+    .introduction .intro-left-side .book-a-call {
+        margin: 0 auto;
+        padding-top: 35px;
+    }
+ 
+    .intro-right-side {
+        margin: 0 auto;
+    }
 
-body {
-    background-color: red !important;
+    }
+@media(max-width:910px) {
+    header {
+        padding: 20px !important;
+     }
+     .introduction {
+         padding: 50px;
+        
+        
+     }
+     .intro-left-side {
+         padding-top: 58px;
+         ;
+     }
+}
+@media(max-width:1342px) and (min-width:911px) {
+    .intro-left-side {
+        flex-basis: 100%;
+    }
+    .intro-left-side h1, .intro-left-side p {
+        text-align: center;
+    }
+    .intro-left-side .book-a-call {
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    .intro-right-side {
+        margin: 0 auto;
+    }
 }
