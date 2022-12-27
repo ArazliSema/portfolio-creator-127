@@ -92,9 +92,47 @@ padding-right: 0px;
 }
 .trustedby {
     padding: 20px 289px 76.27px;
+    background-color: #FF8A56;
+}
+/*Trusted By section End */
+
+/*SERVICES START*/
+.services h6 {
+ text-align: center;
+ padding-top: 76.27px;
+ padding-bottom: 20px;
+ text-transform: uppercase;
+ color: #FF5E69;
+ font-size: 22px;
+ letter-spacing: 4px;
+}
+.services {
+  
+    background-color: red;
+    padding-left: 171px;
+    padding-right: 171px;
+}
+.services-cards {
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   
 }
 
-
-
-
-/*Trusted By section End */
+.services h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 54px;
+    padding-bottom: 117.95px;
+    mi-width: 768px;
+}
+.services-cards ul{
+    
+}
+.service-card p {
+    width: 252px;
+}
+.service-card {
+    min-width: 250px;
+}
+/*SERVICES END*/
