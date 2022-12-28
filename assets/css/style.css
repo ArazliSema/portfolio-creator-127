@@ -13,6 +13,7 @@ header {
 }
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
      
 }
 .nav-links a {
@@ -32,9 +33,6 @@ padding-right: 0px;
     flex-wrap: wrap;
     
     
-    
-   
-
 }
 .intro-left-side {
     padding-top: 117px;
@@ -133,6 +131,7 @@ padding-right: 0px;
 }
 .service-card {
     min-width: 250px;
+    padding-bottom: 90.73px;
 }
 .service-card h2 {
 padding-top: 39px;
@@ -147,3 +146,175 @@ padding-top: 39px;
     padding-top: 21px;
 }
 /*SERVICES END*/
+
+/*PROJECTS Start*/
+.projects {
+    padding-left: 113px;
+    padding-top: 76.27px;
+
+    
+}
+.project-card {
+    width: 400px;
+    min-width: 400px;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    min-width: 486px;
+    flex-wrap: wrap;
+    margin-right: -120px;
+    
+}
+
+.projects h6 {
+    color: #B16CEA;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+.projects .basliq {
+   
+    display: flex;
+}
+.basliq h1 {
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-right: 400px;
+    
+    min-width: 549px;
+}
+.basliq button {
+    height: 58px;
+width: 201px;
+background-color: #000;
+color: #FFFFFF;
+min-width: 201px;
+}
+
+.kart-altteref {
+    background-color: #FFF;
+    padding: 33px 269px 32px 35px ;
+    width: 400px;
+}
+.kart-altteref a {
+text-decoration: none;
+color: #000;
+padding-right: 10.36px;
+}
+.basliq {
+    align-items: center;
+    padding-right: 112px;
+}
+.kart-altteref h5{
+    color: #3C46FF;
+    font-size:14px ;
+    font-weight:700 ;
+    padding-bottom: 17px;
+}
+.kart-altteref h1 {
+    padding-bottom: 19px;
+    min-width: 185px;
+}
+
+/*PROJECTS End*/
+
+
+
+.blogs {
+    background-color: #000;
+    padding-top: 200px;
+    margin-top: -163px;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+    
+.blogs .latest-blogs{
+    color: wheat;
+    padding-top: 77px;
+}
+.latest-blogs h2 {
+    color: #FFA84B;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-top: 38px;
+    padding-bottom: 20px;
+}
+.blogs .box{
+    text-align: end;
+}
+.latest-blogs .first-blogs  {
+    color: #fff;
+}
+.first-blogs a {
+    color: #fff;
+    text-decoration: none;
+}
+.first-blogs a h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.latest-blogs h1 {
+    padding-bottom: 32px;
+    font-weight: 700;
+    font-size: 54px;
+}
+.link {
+    display: flex;
+    align-items: center;
+}
+.link a {
+    padding-right: 15px;
+}
+.second-blogs {
+    color: #FFF;
+}
+.latest-blogs {
+    display: flex;
+}
+.first-blogs {
+    padding-right: 190px;
+}
+.blogs-box h1{
+    font-size:28px ;
+    font-weight:700 ;
+}
+.blogs-box h4 {
+    font-size:15px ;
+    font-weight: 700;
+     color: #FFFFFFB2;
+}
+.blogs-box h3 {
+    font-size:14px;
+    font-weight: 700;
+    color: #FFFFFFB2;
+}
+.blogs-box .time-blogs {
+    display: flex;
+}
+.link-second {
+    display: flex;
+    padding-bottom: 35.73px;
+}
+.link-second h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.time-blogs {
+    padding-bottom: 26px;
+}
+.second-blogs .time-blogs{
+    padding-top: 61.27px;
+}
+.link-second a {
+    text-decoration: none;
+    padding-right: 19px;
+}
+.first-blogs h1 {
+    min-width: 332px;
+}
