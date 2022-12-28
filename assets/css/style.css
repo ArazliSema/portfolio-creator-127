@@ -92,7 +92,6 @@ padding-right: 0px;
 }
 .trustedby {
     padding: 20px 289px 76.27px;
-    background-color: #FF8A56;
 }
 /*Trusted By section End */
 
@@ -107,8 +106,6 @@ padding-right: 0px;
  letter-spacing: 4px;
 }
 .services {
-  
-    background-color: red;
     padding-left: 171px;
     padding-right: 171px;
 }
@@ -126,13 +123,27 @@ padding-right: 0px;
     padding-bottom: 117.95px;
     mi-width: 768px;
 }
-.services-cards ul{
-    
-}
 .service-card p {
     width: 252px;
+    padding-top: 25px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#666666;
 }
 .service-card {
     min-width: 250px;
+}
+.service-card h2 {
+padding-top: 39px;
+}
+.service-card ul li {
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.service-card ul {
+    padding-top: 21px;
 }
 /*SERVICES END*/
